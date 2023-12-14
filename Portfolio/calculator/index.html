@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc-div">
+        <div class="display" >
+            <input type="text" id="display" readonly="true" value="">
+            <button value="/"  onclick="setOperator(value)">/</button>
+        </div>
+        <div class="row">
+            <button value="7" onclick="setOperand(value)">7</button>
+            <button value="8" onclick="setOperand(value)">8</button>
+            <button value="9" onclick="setOperand(value)">9</button>
+            <button value="*" onclick="setOperator(value)">*</button>
+        </div>
+        <div class="row">
+            <button value="4" onclick="setOperand(value)">4</button>
+            <button value="5" onclick="setOperand(value)">5</button>
+            <button value="6" onclick="setOperand(value)">6</button>
+            <button value="-" onclick="setOperator(value)">-</button>
+        </div>
+        <div class="row">
+            <button value="1" onclick="setOperand(value)">1</button>
+            <button value="2" onclick="setOperand(value)">2</button>
+            <button value="3" onclick="setOperand(value)">3</button>
+            <button value="+" onclick="setOperator(value)">+</button>
+        </div>
+        <div class="lrow">
+            <button  onclick="clearDisplay()">C</button>
+            <button value="0" onclick="setOperand(value)">0</button>
+            <button value="." onclick="setOperand(value)">.</button>
+            <button value="=" onclick="express()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

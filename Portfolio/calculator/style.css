@@ -1,0 +1,55 @@
+body
+{
+    background-image: url(Background.png);
+    background-size: cover;
+    opacity: 0.89;
+}
+
+.calc-div
+{
+    height:80vh;
+    width: 30%;
+    margin: 10vh auto;
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-style: none;
+    border-radius: 14px;
+    background-color: lightsteelblue;
+    box-shadow: 4px 4px 11px  ;
+    opacity: 0.9;
+    position: sticky;
+}
+
+.calc-div > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+#display
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    height:8vh;
+    width:64%;
+    border:none;
+    border-radius:40px;
+    box-shadow: 1px inset;
+    padding-left:10px;
+    background-color: mintcream;
+}
+
+button
+{
+    width: 10vh;
+    height: 10vh;
+    border-style: none;
+    border-radius:25%;
+    box-shadow: 2px 2px 4px ;
+    background-color: cornflowerblue;
+}
